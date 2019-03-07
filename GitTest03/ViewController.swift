@@ -4,7 +4,7 @@
 //
 //  Created by D7703_11 on 2019. 3. 7..
 //  Copyright © 2019년 dit.ac.kr. All rights reserved.
-//
+
 
 import UIKit
 
@@ -14,10 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.view.backgroundColor = UIColor.lightGray
-       
-        
-       
+        // UIView background color을 red로 변경
+        self.view.backgroundColor = UIColor.blue
     }
 
     override func didReceiveMemoryWarning() {
