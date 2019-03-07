@@ -14,8 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // UIView background color을 red로 변경
-        self.view.backgroundColor = UIColor.blue
+        // UIView background color을 darkgray로 변경
+        self.view.backgroundColor = UIColor.darkGray
     }
 
     override func didReceiveMemoryWarning() {
